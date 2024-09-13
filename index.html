@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineBlock - Web Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #gameContainer {
+            margin-top: 20px;
+            border: 2px solid black;
+            width: 640px;
+            height: 480px;
+        }
+        #startBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>MineBlock - Web Edition</h1>
+    <button id="startBtn">Iniciar Jogo</button>
+    <div id="gameContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.18.1/full/pyodide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
